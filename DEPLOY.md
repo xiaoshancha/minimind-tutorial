@@ -13,10 +13,10 @@
 - **本地手动部署**：`bash deploy-local.sh`
 
 > 首次用工作流前，需在 GitHub 仓库 `Settings → Secrets and variables → Actions` 里添加：
-> `SSH_HOST=123.56.2.125`、`SSH_USER=admin`、`SSH_PORT=22`、
+> `SSH_HOST=123.56.2.125`、`SSH_USER=admin`、
 > `SSH_PRIVATE_KEY=<id_ed25519_penguin 私钥完整内容>`。
 >
-> 可与 `deepseek-harness-tutorial` 仓库复用同一组 SSH secrets。远程路径已写死在 workflow 中，不必再配 `SSH_DEPLOY_PATH`。
+> 可与 `deepseek-harness-tutorial` 仓库复用同一组 SSH secrets（端口已写死为 22）。远程路径已写死在 workflow 中，不必再配 `SSH_DEPLOY_PATH`。
 
 ---
 
