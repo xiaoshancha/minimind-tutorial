@@ -1,5 +1,7 @@
 # MiniMind 系统学习教程
 
+> 在线阅读：https://tutorial.baimuyuan.online/minimind-tutorial/
+>
 > 基于 [jingyaogong/minimind](https://github.com/jingyaogong/minimind)（commit `393e387`）编写的教材级系统学习教程。
 >
 > 面向读者：具备深度学习基础与 Transformer 概念、未从 0 训练过 LLM 的学习者。

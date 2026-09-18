@@ -1,0 +1,19 @@
+{
+  "name": "minimind-tutorial-site",
+  "description": "MiniMind 系统学习教程 - 分层静态文档站",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev .",
+    "build": "vitepress build .",
+    "preview": "vitepress preview .",
+    "verify": "node scripts/verify-dist.mjs"
+  },
+  "devDependencies": {
+    "markdown-it-mathjax3": "^4.3.2",
+    "vitepress": "^1.6.3"
+  },
+  "allowScripts": {
+    "esbuild@0.21.5": true
+  }
+}

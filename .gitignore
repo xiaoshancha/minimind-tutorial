@@ -1,0 +1,17 @@
+# 依赖
+node_modules/
+
+# VitePress 构建产物（由 `npm run build` 生成，不入库）
+.vitepress/dist/
+.vitepress/cache/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# 本地环境
+.env
+.env.*
